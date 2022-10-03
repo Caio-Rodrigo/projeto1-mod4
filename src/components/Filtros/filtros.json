@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Sem alcool",
+    "id": 1
+  },
+  {
+    "label": "Com alcool",
+    "id": 2
+  },
+  {
+    "label":"Com Vinho",
+    "id":3
+  },
+  {
+    "label":"Com Vodka",
+    "id":4
+  },
+  {
+    "label":"Com Wisk",
+    "id":5
+  }
+]
