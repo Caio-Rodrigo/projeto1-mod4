@@ -11,7 +11,7 @@
   }
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 20px $padding-horizontal-md;
-}
+  }
 }
 
 .logo {
@@ -19,13 +19,13 @@
   height: auto;
   padding: 0 1rem;
   background: linear-gradient(
-    40deg,
-    rgba(215, 14, 236, 0.284) 0%,
-    rgba(13, 79, 218, 0.028448879551820738) 35%,
-    rgba(204, 255, 0, 0.284) 70%,
-    rgba(255, 175, 0, 0.284) 94%
-  );
-  
+      11deg,
+      rgba(255, 60, 0, 0.250) 13%,
+      rgba(168, 255, 0, 0.250) 29%,
+      rgba(105, 162, 164, 0.250) 49%,
+      rgba(52, 185, 227, 0.250) 66%,
+      rgba(181, 14, 236, 0.250) 89%
+    );
 }
 
 .header {
@@ -53,18 +53,19 @@
     width: 40%;
   }
 
-  span {
+  p {
     background: linear-gradient(
-      31deg,
-      rgba(255, 175, 0, 1) 4%,
-      rgba(202, 255, 0, 1) 31%,
+      11deg,
+      rgba(255, 59, 0, 1) 13%,
+      rgba(168, 255, 0, 1) 29%,
       rgba(105, 162, 164, 1) 49%,
-      rgba(13, 79, 218, 1) 66%,
-      rgba(215, 14, 236, 1) 94%
+      rgba(52, 185, 227, 1) 66%,
+      rgba(181, 14, 236, 1) 89%
     );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0
   }
 }
 
