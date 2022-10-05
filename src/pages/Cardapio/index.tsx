@@ -5,6 +5,7 @@ import Buscador from "components/Buscador";
 import { useState } from "react";
 import Filtro from "../../components/Filtros";
 import Ordenador from "components/Ordenador";
+import Itens from "components/Itens";
 
 export default function Cardapio() {
   const [busca, setBusca] = useState("");
@@ -19,7 +20,7 @@ export default function Cardapio() {
       </nav>
       <header className={styles.header}>
         <div className={styles.header__text}>
-          <p> Casa das mais divesrças bebidas</p>
+          <h1> Casa das mais divesrças bebidas</h1>
         </div>
         <section className={styles.cardapio}>
           <h3 className={styles.cardapio__titulo}>Cardápio</h3>
@@ -27,6 +28,8 @@ export default function Cardapio() {
           <div className={styles.cardapio__filtros}>
             <Filtro filtro={filtro} setFiltro={setFiltro} />
             <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
+
+            <Itens/>
           </div>
         </section>
       </header>
