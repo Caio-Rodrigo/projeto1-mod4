@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Mojito",
+    "description": " ramos de , açúcar, suco de limão, rum, Gelo, Água com gás",
+    "photo": "https://mufs.com.br/wp-content/uploads/2020/11/Mojito-Mufs.jpg",
+    "size": 400,
+    "serving": 1,
+    "price": 18.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Rum"
+    }
+  },
+  {
+    "title": "Clericot",
+    "description": " carambola , laranja-baía, morango, uva Vitória, gelo, Cointreau, vinho rosé, espumante seco ",
+    "photo": "http://conteudo.imguol.com.br/c/entretenimento/26/2021/12/16/jarra-de-clericot-1639670607490_v2_1280x1920.jpg",
+    "size": 1,
+    "serving": 3,
+    "price": 54.0,
+    "id": 2,
+    "category": {
+      "id": 3,
+      "label": "Vinho"
+    }
+  },
+  {
+    "title": "Cuba Libre",
+    "description": "limão Taiti, gelo, rum claro, Coca-Cola ",
+    "photo": "https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2500-4d0d38aa39affe0a72f8fec9d4a435e8.jpg",
+    "size": 350,
+    "serving": 1,
+    "price": 25.0,
+    "id": 3,
+    "category": {
+      "id": 1,
+      "label": "Rum"
+    }
+  },
+  {
+    "title": "Batida de morango sem Álcool",
+    "description": "morango, limão-siciliano, iorgute, água açucar",
+    "photo": "https://vitat.com.br/central/Content/handlers/Receita.jpg?id=141&tipo=r&default=s",
+    "size": 500,
+    "serving": 2,
+    "price": 18.0,
+    "id": 4,
+    "category": {
+      "id": 2,
+      "label": "sem Alcool"
+    }
+  }
+]
