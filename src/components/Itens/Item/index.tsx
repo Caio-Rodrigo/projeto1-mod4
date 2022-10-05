@@ -1,0 +1,33 @@
+import logo from "assets/My-Drink1.svg";
+import styles from "./Item.module.scss";
+import cardapio from "../itens.json";
+
+type Props = typeof cardapio[0];
+
+export default function Item(props: Props) {
+  const { title, description, size, serving, price, photo, category } = props;
+  return (
+    <div className={styles.item}>
+      <div className={styles.item__imagem}>
+        <img src={photo} alt="title" />
+      </div>
+      <div className={styles.item__descricao}>
+        <div className={styles.item__titulo}>
+          <h2> {title} </h2>
+          <p> {description} </p>
+        </div>
+        <div className={styles.item__tags}>
+          <div className={styles.item__tipo}> {category.label} </div>
+          <div className={styles.item__porcao}>
+            {size}
+            {size < 50 ? "l" : "ml"}
+          </div>
+          <div className={styles.item__qtdpessoas}>
+            Serve {serving} pessoa{serving === 1 ? "" : "s"}
+          </div>
+          <div className={styles.item__valor}>R${price.toFixed(2)}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
