@@ -8,7 +8,7 @@
     "price": 18.0,
     "id": 1,
     "category": {
-      "id": 1,
+      "id": 2,
       "label": "Rum"
     }
   },
@@ -17,7 +17,7 @@
     "description": " carambola , laranja-baía, morango, uva Vitória, gelo, Cointreau, vinho rosé, espumante seco ",
     "photo": "http://conteudo.imguol.com.br/c/entretenimento/26/2021/12/16/jarra-de-clericot-1639670607490_v2_1280x1920.jpg",
     "size": 1,
-    "serving": 3,
+    "serving": 4,
     "price": 54.0,
     "id": 2,
     "category": {
@@ -34,7 +34,7 @@
     "price": 25.0,
     "id": 3,
     "category": {
-      "id": 1,
+      "id": 2,
       "label": "Rum"
     }
   },
@@ -47,7 +47,7 @@
     "price": 18.0,
     "id": 4,
     "category": {
-      "id": 2,
+      "id": 1,
       "label": "sem Alcool"
     }
   }
